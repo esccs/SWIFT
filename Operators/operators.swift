@@ -16,4 +16,14 @@ let result = (num==0) ? "Zero" : (num > 0) ? "positive":"negative"
 
 print(result)
 
-// Bit wide Operators
+// Bitwise Operators
+
+// program to print binary value
+
+var example = 10
+while(example > 0){
+    var some  = example%2
+    example /= 2
+    print(some)
+}
+
